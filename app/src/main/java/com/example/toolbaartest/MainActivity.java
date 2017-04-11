@@ -140,13 +140,13 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.backup:
-                Toast.makeText(this, "你点击了下Backup", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "你点击了下Backup，但是此功能暂未更新哈哈...", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.delete:
-                Toast.makeText(this, "你点击了下Delete", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "你点击了下Delete，但是此功能暂未更新哈哈...", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.setting:
-                Toast.makeText(this, "你点击了下Setting", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "你点击了下Setting，但是此功能暂未更新哈哈...", Toast.LENGTH_SHORT).show();
                 break;
             case android.R.id.home:
                 drawer.openDrawer(GravityCompat.START);
